@@ -9,14 +9,6 @@ ul, li {
     margin: 0;   
 }
 
-/* .menu.open {
-    display: block;
-} */
-
-/* .menu__img img {
-    display: none;
-} */
-
 .menu {
     padding-top: 20px;
 }
@@ -77,7 +69,7 @@ ul, li {
     padding-top: 12px;
 }
 
-.offer__marker img {
+.marker__img {
     height: 45px;
 }
 
@@ -159,7 +151,6 @@ section {
 .pink-shadow {
     background: #ffffff; /* Цвет фона */
     box-shadow: inset 0 0 10px rgba(247,218,236,0.5); /* Параметры тени */
-    /* padding: 10px; */
     -webkit-box-shadow: inset 0 0 10px rgba(247,218,236,0.5);
     -moz-box-shadow: inset 0 0 10px rgba(247,218,236,0.5);
     filter: progid:DXImageTransform.Microsoft.dropshadow(offX=5, offY=5, color=#f7daec);
@@ -168,7 +159,6 @@ section {
 .advantage__words {
     padding: 20px 0;
     font-size: 18px;
-    /* font-weight: bold; */
     text-transform: uppercase;
 }
 
@@ -554,7 +544,7 @@ section {
         margin-left: 0;
     }
 
-    .offer__marker img {
+    .marker__img {
         height: 35px;
     }
 
@@ -621,7 +611,7 @@ section {
         height: 100px;
     }
 
-    .footer__content span {
+    .footer__span {
         font-size: 13px;
     }
 
